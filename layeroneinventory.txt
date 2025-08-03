@@ -1,0 +1,15 @@
+# edit as needed. 
+Console, Ubuntu Linux (64-bit), 10.1.10.130
+Manager-2025, Ubuntu Linux (64-bit), 10.1.10.131
+esx-01a, VMware ESXi 8.0 or later, 10.1.1.101
+esx-02a, VMware ESXi 8.0 or later, 10.1.1.102
+esx-03a, VMware ESXi 8.0 or later, 10.1.1.103
+esx-04a, VMware ESXi 8.0 or later, 10.1.1.104
+esx-05a, VMware ESXi 8.0 or later, 10.1.1.105
+esx-06a, VMware ESXi 8.0 or later, 10.1.1.106
+esx-07a, VMware ESXi 8.0 or later, 10.1.1.107
+esx-01b, VMware ESXi 8.0 or later, 10.2.1.101
+esx-02b, VMware ESXi 8.0 or later, 10.2.1.102
+esx-03b, VMware ESXi 8.0 or later, 10.2.1.103
+stb-infra-01b, FreeBSD 13 (64-bit), 10.2.1.3
+Holorouter-2025, VMware Photon OS (64-bit), 10.1.10.129, 192.168.0.2
