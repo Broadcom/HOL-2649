@@ -196,8 +196,6 @@ if not lsf.labcheck:
 # Insert your code here using the file in your vPod_repo
 #
 
-lsf.ssh(f'pkill update-manager;pkill update-notifier', 'holuser@console', lsf.password)
-
 # copy the 'PG Queries.txt from the vpodrepo to the MC if byte count is different and newer
 repo_queries = f'{lsf.vpod_repo}/PG Queries.txt'
 mc_queries = f'{lsf.mcdesktop}/PG Queries.txt'
