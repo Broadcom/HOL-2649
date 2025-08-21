@@ -1,6 +1,7 @@
 # prelim.py version 1.15 06-April 2025
 import sys
 import os
+import shutil
 import glob
 import logging
 import datetime
@@ -204,7 +205,9 @@ try:
         queries_tdiff = os.path.getmtime(repo_queries) - os.path.getmtime(mc_queries)
         if queries_tdiff > 0:
             lsf.write_output('vPodrepo Queries is different and newer. Copying to Main Console...')
-            os.system(f'cp -p {repo_queries} {mc_queries}')
+            shutil.copyfile(repo_queries, mc_queries)
+            # The line below doesn't work due to spaces in filename
+            #os.system(f'cp -fp {repo_queries} {mc_queries}')
         elif queries_tdiff < 0:
             lsf.write_output('Changes detected on MC Queries. Please add to vPodrepo and check in.')
     else:
