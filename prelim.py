@@ -198,8 +198,8 @@ if not lsf.labcheck:
 #
 
 # copy the 'PG Queries.txt from the vpodrepo to the MC if byte count is different and newer
-repo_queries = f'{lsf.vpod_repo}/PG\\ Queries.txt'
-mc_queries = f'{lsf.mcdesktop}/PG\\ Queries.txt'
+repo_queries = f'{lsf.vpod_repo}/PG Queries.txt'
+mc_queries = f'{lsf.mcdesktop}/PG Queries.txt'
 try:
     if os.stat(repo_queries).st_size != os.stat(mc_queries).st_size:
         queries_tdiff = os.path.getmtime(repo_queries) - os.path.getmtime(mc_queries)
