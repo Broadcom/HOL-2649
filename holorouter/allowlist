@@ -8,6 +8,7 @@ odyssey-stage.vmware.com
 s3-us-west-1.amazonaws.com
 archive.ubuntu.com
 security.ubuntu.com
+mcr.microsoft.com
 packages.microsoft.com
 q1uk5yfspf.execute-api.us-east-2.amazonaws.com
 cjguvz7527.execute-api.us-west-1.amazonaws.com
